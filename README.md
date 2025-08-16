@@ -1,4 +1,4 @@
-# 🏠 Property-Price-Prediction-ML-Project
+# 🏠 Housing Property-Price-Prediction-ML-Project
 
 The Problem statement is to **predict the amount of a housing property** based on a range of features such as **_carpet_area_**, **_property_status_**, **_floor_**, **_transaction type_**, **_furnishing_**, **_facing_**, **_overlooking_**, **_society name_**, **_bathroom count_**, **_balcony count_**, **_car parking_**, **_ownership type_**, **_super_area_**, **_property_title_** and **_amount_** of a housing property.
 
