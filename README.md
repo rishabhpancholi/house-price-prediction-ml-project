@@ -120,7 +120,7 @@ The project lifecycle consisted of these steps
 
 ---
 
-### 🤖 Model Training, Evaluation and Hyperparameter Tuning
+### 📈 Results
 
 - The resulting model when evaluated on the test set improves model performance by decreasing `root_mean_squared_error` by `51.20 %` and `mean_absolute_error` by `51.94%` compared to the baseline model.
 - Baseline model = mean prediction of target column.
@@ -128,12 +128,14 @@ The project lifecycle consisted of these steps
 
 ---
 
-If you liked my work don't forget to star my repository.
+### 📬 Contact
 
-Feel free to connect by email : ` rishabhpancholi134@gmail.com`.
+If you liked my work don't forget to ⭐ my repository.
 
-Checkout my [LinkedIn](https://www.linkedin.com/in/rishabh-pancholi-9a31b9191/) profile.
+Feel free to connect by email 📧 : ` rishabhpancholi134@gmail.com`.
+
+🔗 Checkout my [LinkedIn](https://www.linkedin.com/in/rishabh-pancholi-9a31b9191/) profile.
 
 ---
 
-# **_Thank You_**
+# 🙏 **_Thank You_**
