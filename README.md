@@ -115,16 +115,16 @@ The project lifecycle consisted of these steps
   - Different machine learning models and hyperparameter combinations were performed and their performance was tracked and evaluated.
   - For **_Hyperparameter Tuning_** a python framework called `optuna` was used.
   - For **_Experimentation Tracking_** a python framework called `mlflow` was used.
-  - For optimization `root_mean_squared_error` was taken as it was able to capture the extreme points and also keeping the other metrics stable such as `mean_absolute_error` and `r2_score`.
+  - For optimization `mean_absolute_error` was taken as the metric.
   - In order to avoid overfitting an overfit penalty (absolute difference between the train result and val result) was added to the `root_mean_squared_error`.
 
 ---
 
 ### 📈 Results
 
-- The resulting model when evaluated on the test set improves model performance by decreasing `root_mean_squared_error` by `51.20 %` and `mean_absolute_error` by `51.94%` compared to the baseline model.
+- The resulting model when evaluated on the test set improves model performance by decreasing `root_mean_squared_error` by `52.19 %` and `mean_absolute_error` by `52.87%` compared to the baseline model.
 - Baseline model = mean prediction of target column.
-- The resulting model explains `76.18 %` variation of target variable in the test dataset.
+- The resulting model explains `77.14 %` variation of target variable in the test dataset.
 
 ---
 
