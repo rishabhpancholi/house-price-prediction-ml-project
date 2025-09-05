@@ -208,3 +208,4 @@ __marimo__/
 
 # mlruns folder
 mlruns/
+/data
