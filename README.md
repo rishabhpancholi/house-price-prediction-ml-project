@@ -66,18 +66,6 @@ The project lifecycle consisted of these steps
 - #### **_How?_**
   - Python libraries such as `numpy` and `pandas`.
 
-### ✂️ Train Test Split
-
-- #### **_Why?_**
-
-  - To study the patterns and train the model on training dataset only.
-  - To tune and evaluate the model performance later on the validation dataset and the test dataset respectively.
-  - To ensure that there is no data leakage between the `train`,`test` and `val` sets.
-
-- #### **_How?_**
-
-  - `train_test_split` function from the `model_selection` module of the python library` scikit-learn`.
-
 ### 📊 Exploratory Data Analysis
 
 - #### **_Why?_**
@@ -102,7 +90,7 @@ The project lifecycle consisted of these steps
 
 - #### **_How?_**
 
-  - Python libraries for feature engineering such as `scikit-learn`,`feature-engnine`,`pandas` and `numpy`.
+  - Python libraries for feature engineering such as `scikit-learn`,`pandas` and `numpy`.
   - Feature Engineering mainly consisted of **_Missing Value Imputation_**, **_Feature Transformation_**, **_Feature Construction_** and **_Feature Selection_**.
   - **_Feature Transformation_** involved normalizing transformations such as (log,sqrt) and scaling for numerical columns and encoding for categorical columns.
   - **_Feature Construction_** involved constructing new features out of existing ones for better model performance. (Eg -> extracting `area_per_room` feature from already existing `num_bhk`, `super_area` and `carpet_area`)
@@ -114,17 +102,17 @@ The project lifecycle consisted of these steps
 
   - Different machine learning models and hyperparameter combinations were performed and their performance was tracked and evaluated.
   - For **_Hyperparameter Tuning_** a python framework called `optuna` was used.
-  - For **_Experimentation Tracking_** a python framework called `mlflow` was used.
+  - For **_Experimentation Tracking_** a tool called `mlflow` was used.
   - For optimization `mean_absolute_error` was taken as the metric.
-  - In order to avoid overfitting an overfit penalty (absolute difference between the train result and val result) was added to the `root_mean_squared_error`.
+  - In order to avoid overfitting `KFold` cross validation was used.
 
 ---
 
 ### 📈 Results
 
-- The resulting model when evaluated on the test set improves model performance by decreasing `root_mean_squared_error` by `52.19 %` and `mean_absolute_error` by `52.87%` compared to the baseline model.
+- The resulting model when evaluated on the test set improves model performance by decreasing `mean_absolute_error` by `57.23%%` compared to the baseline model.
 - Baseline model = mean prediction of target column.
-- The resulting model explains `77.14 %` variation of target variable in the test dataset.
+- The resulting model explains `81.71 %` variation of target variable in the test dataset.
 
 ---
 
